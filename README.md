@@ -26,25 +26,14 @@ La solución cubre:
 
 ---
 
-## 📂 Estructura del Repositorio
+## 📂 Estructura de las pruebas
 
-📁 ahorros-digital
-│
-├── 📁 tests
-│   ├── onboarding.spec.ts
-│   ├── simulator.spec.ts
-│
-├── 📁 reports
-│   └── playwright-report/
-│
-├── 📁 evidence
-│   ├── screenshots/
-│   └── videos/
-│
-├── playwright.config.ts
-├── PLAN_DE_PRUEBAS.md
-├── CASOS_DE_PRUEBA.md
-└── README.md
+tests/
+├── onboarding/
+│   ├── register.spec.ts
+│   └── login.spec.ts
+├── simulator/
+│   └── simulator.spec.ts
 
 
 
