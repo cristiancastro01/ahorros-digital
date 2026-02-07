@@ -133,7 +133,7 @@ npx playwright show-report
     - Capturas de pantalla
     - Videos de ejecución en modo headless
 
-ubicacion:
+### ubicacion:
 reports/
 evidence/
 
