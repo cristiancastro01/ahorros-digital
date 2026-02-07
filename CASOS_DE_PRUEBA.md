@@ -14,7 +14,7 @@ Pasos:
 
 Resultado esperado: Usuario registrado y redirigido al dashboard
 ---
-# PRUBA-CS-002 – Loguin fallido por contraseña/usuario incorrecto 
+# PRUBA-CS-002 – Login fallido por contraseña/usuario incorrecto 
 Prioridad: P0<br>
 Modulo: Onboarding <br>
 Precondiciones: Acceso al ambiente de pruebas ahorro digital, tener usuario registrado<br>
