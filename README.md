@@ -110,18 +110,22 @@ Se automatizaron **5 pruebas críticas**, entre ellas:
 ### 🔹 Instalación de dependencias
 ```bash
 npm install
+ ```
 
 ### 🔹 Ejecutar pruebas automatizadas
 ```bash
 npx playwright test
+ ```
 
 ### 🔹 Ejecutar pruebas en modo headless
 ```bash
 npx playwright test --headed=false
+ ```
 
 ### 🔹 Visualizar reporte HTML
 ```bash
 npx playwright show-report
+ ```
 
 📊 Reportes y Evidencia
 - Reporte automático HTML generado por Playwright.
