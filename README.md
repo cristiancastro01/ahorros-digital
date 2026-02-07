@@ -28,3 +28,86 @@ La solución cubre:
 
 ## 📂 Estructura del Repositorio
 
+ahorro-digital-qa/
+│
+├── tests/
+│ ├── onboarding.spec.ts
+│ ├── simulator.spec.ts
+│
+├── reports/
+│ └── playwright-report/
+│
+├── evidence/
+│ ├── screenshots/
+│ └── videos/
+│
+├── playwright.config.ts
+├── PLAN_DE_PRUEBAS.md
+├── CASOS_DE_PRUEBA.md
+└── README.md
+
+
+---
+
+## 🧠 Plan de Pruebas
+
+El **Plan de Pruebas** define:
+- Objetivos
+- Alcance
+- Tipos de pruebas
+- Criterios de aceptación
+- Riesgos clasificados por prioridad
+
+### 🔥 Priorización de Riesgos
+- **P0**: Onboarding (registro e inicio de sesión)
+- **P1**: Simulador de ahorro
+- **P2**: Visualización de productos y validaciones UI
+
+📄 Documento: `PLAN_DE_PRUEBAS.md`
+
+---
+
+## 🧪 Casos de Prueba
+
+Se diseñaron **12 casos de prueba**, incluyendo:
+- Casos funcionales
+- Casos negativos
+- Validaciones de interfaz (UI)
+
+Todos los casos están clasificados por:
+- Prioridad (P0 / P1 / P2)
+- Módulo funcional
+
+📄 Documento: `CASOS_DE_PRUEBA.md`
+
+---
+
+## 🤖 Automatización de Pruebas
+
+### 🛠 Herramientas Utilizadas
+- **Playwright** – Automatización UI
+- **TypeScript**
+- **Node.js**
+- **GitHub**
+
+### 📌 Casos Automatizados
+Se automatizaron **5 pruebas críticas**, entre ellas:
+- Registro exitoso
+- Registro fallido por campos obligatorios vacíos
+- Login con credenciales inválidas
+- Simulación de ahorro con monto válido
+- Validación de monto inválido (0)
+
+---
+
+## ▶️ Ejecución de Pruebas
+
+### 🔹 Requisitos Previos
+- Node.js versión 18 o superior
+- npm o yarn
+
+### 🔹 Instalación de dependencias
+```bash
+npm install
+
+
