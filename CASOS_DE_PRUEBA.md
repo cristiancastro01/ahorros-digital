@@ -6,7 +6,7 @@ Modulo: Onboarding  <br>
 Precondiciones: Acceso al ambiente de pruebas ahorro digital, Usuario no registrado  <br>
 Datos: Usuario valido, Contraseña valida <br>
 Pasos: 
-1.	Ingresar a la url htttps://ahorrodigital-test.com/
+1.	Ingresar a la url https://ahorrodigital-test.com/
 2.	Dar clic sobre el menú del costado superior derecho
 3.	Seleccionar la opción de registro
 4.	Diligenciar los datos solicitados para el registro

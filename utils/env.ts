@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://ahorro-digital.test';
+export const BASE_URL = 'https://ahorrodigital-test.com';
