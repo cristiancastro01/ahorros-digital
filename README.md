@@ -28,13 +28,14 @@ La solución cubre:
 
 ## 📂 Estructura de las pruebas
 
+```text
 tests/
 ├── onboarding/
 │   ├── register.spec.ts
 │   └── login.spec.ts
 ├── simulator/
 │   └── simulator.spec.ts
-
+```
 
 
 ---
