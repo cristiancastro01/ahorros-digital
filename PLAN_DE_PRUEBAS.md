@@ -1,4 +1,4 @@
-# PLAN DE PRUEBAS AHORRO DIGITAL
+# 🧪PLAN DE PRUEBAS AHORRO DIGITAL
 ## 1.	Introducción 
 En este documento se consigna y describe el plan de pruebas para la aplicación WEB Ahorro Digital del banco xxxx, cuyo objetivo es permitir a los usuarios examinar y/o buscar productos de ahorro que se ajusten a sus necesidades, simulando el rendimiento de sus depósitos.
 
@@ -46,11 +46,12 @@ Las pruebas se llevaran acabo mediante pruebas manuales y automatizadas, haciend
 -	Las tasas de simulación deben ser parametrizables 
 
 ## 7.	Identificación de prioridad y riesgos 
-Prioridad	Módulo	Riesgo	Impacto
-P0	Onboarding	Login fallido (con credenciales correctas)	Usuario no puede acceder
-P0	Onboarding	No se presenta pantalla de onboarding 	Usuarios sin correcto onboarding ‘introducción’ 
-P1	Simulador	Cálculos incorrectos 	Perdida de confianza / problemas legales
-P2	Productos	Información incorrecta de los productos	Confusiones y pérdida de confianza
+| Prioridad | Módulo | Riesgo | Impacto |  
+| --- | --- | --- | --- |
+| P0 | Onboarding | Login fallido (con credenciales correctas) | Usuario no puede acceder |
+| P0 | Onboarding | No se presenta pantalla de onboarding | Usuarios sin correcto onboarding ‘introducción’ |
+| P1 | Simulador | Cálculos incorrectos | Perdida de confianza / problemas legales |
+| P2 | Productos | Información incorrecta de los productos | Confusiones y pérdida de confianza |	
 
 ## 8.	Entorno de pruebas 
 -	Aplicación Web (entorno ficticio).
