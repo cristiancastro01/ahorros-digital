@@ -28,23 +28,24 @@ La solución cubre:
 
 ## 📂 Estructura del Repositorio
 
-ahorro-digital-qa/
+📁 ahorros-digital
 │
-├── tests/
-│ ├── onboarding.spec.ts
-│ ├── simulator.spec.ts
+├── 📁 tests
+│   ├── onboarding.spec.ts
+│   ├── simulator.spec.ts
 │
-├── reports/
-│ └── playwright-report/
+├── 📁 reports
+│   └── playwright-report/
 │
-├── evidence/
-│ ├── screenshots/
-│ └── videos/
+├── 📁 evidence
+│   ├── screenshots/
+│   └── videos/
 │
 ├── playwright.config.ts
 ├── PLAN_DE_PRUEBAS.md
 ├── CASOS_DE_PRUEBA.md
 └── README.md
+
 
 
 ---
@@ -109,5 +110,28 @@ Se automatizaron **5 pruebas críticas**, entre ellas:
 ### 🔹 Instalación de dependencias
 ```bash
 npm install
+
+### 🔹 Ejecutar pruebas automatizadas
+```bash
+npx playwright test
+
+### 🔹 Ejecutar pruebas en modo headless
+```bash
+npx playwright test --headed=false
+
+### 🔹 Visualizar reporte HTML
+```bash
+npx playwright show-report
+
+📊 Reportes y Evidencia
+- Reporte automático HTML generado por Playwright.
+- Evidencia visual en caso de fallos:
+    - Capturas de pantalla
+    - Videos de ejecución en modo headless
+
+ubicacion:
+reports/
+evidence/
+
 
 
