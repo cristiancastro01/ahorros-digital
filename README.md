@@ -134,8 +134,8 @@ npx playwright show-report
     - Videos de ejecución en modo headless
 
 ### ubicacion:
-reports/
-evidence/
+- reports/
+- evidence/
 
 
 
