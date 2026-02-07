@@ -10,7 +10,8 @@ Pasos:
 2.	Dar clic sobre el menú del costado superior derecho
 3.	Seleccionar la opción de registro
 4.	Diligenciar los datos solicitados para el registro
-5.	Clic en ‘registrar’<br>
+5.	Clic en ‘registrar’
+
 Resultado esperado: Usuario registrado y redirigido al dashboard
 ---
 # PRUBA-CS-002 – Loguin fallido por contraseña/usuario incorrecto 
