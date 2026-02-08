@@ -49,6 +49,11 @@ El **Plan de Pruebas** define:
 - Criterios de aceptación
 - Riesgos clasificados por prioridad
 
+### 👾 Bugs
+- **Los bugs se encontrara dentro de evidence/bugs**
+
+📄 Documento: `PLAN_DE_PRUEBAS.md`
+
 ### 🔥 Priorización de Riesgos
 - **P0**: Onboarding (registro e inicio de sesión)
 - **P1**: Simulador de ahorro
