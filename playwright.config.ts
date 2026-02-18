@@ -29,6 +29,10 @@ export default defineConfig({
   use: {
      baseURL: 'https://ahorro-digital.test',
     trace: 'on-first-retry',
+     headless: true,
+    video: 'retain-on-failure',
+    screenshot: 'only-on-failure',
+    trace: 'on-first-retry'
   },
 
   /* Configure projects for major browsers */
